@@ -1,10 +1,11 @@
-Mantaray AR
+Introduction to Basic Statistics
 ===========
 
-# Introduction to Probability and Statistics
-
+An Augmented Reality application by [Mantaray AR](http://mantarayar.com).
 
 This application is a Unity Project that utilizes Vuforia for Augmented Reality.
+
+[This software is provided under a special software license. Please read it if you wish to use this code.](LICENSE.md)
 
 # Unity
 
