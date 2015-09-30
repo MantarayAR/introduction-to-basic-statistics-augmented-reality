@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 7de1941d0a5b3d544b5180c7a8de4b9f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone21
+    100002: Bone15
+    100004: Bone14
+    100006: Bone11
+    100008: Bone10
+    100010: Bone08
+    100012: Bone13
+    100014: Bone09
+    100016: Bone07
+    100018: Bone06
+    100020: Bone05
+    100022: Bone04
+    100024: Bone17
+    100026: Bone16
+    100028: Bone20
+    100030: Bone19
+    100032: Bone18
+    100034: Bone02
+    100036: Bone01
+    100038: Bone03
+    100040: Point01
+    100042: Box04
+    100044: Scene Root_root
+    100046: Bone21(mirrored)
+    100048: Bone15(mirrored)
+    100050: Bone14(mirrored)
+    100052: Bone20(mirrored)
+    100054: Bone19(mirrored)
+    100056: Bone18(mirrored)
+    100058: //RootNode
+    100060: Bone12
+    400000: Bone21
+    400002: Bone15
+    400004: Bone14
+    400006: Bone11
+    400008: Bone10
+    400010: Bone08
+    400012: Bone13
+    400014: Bone09
+    400016: Bone07
+    400018: Bone06
+    400020: Bone05
+    400022: Bone04
+    400024: Bone17
+    400026: Bone16
+    400028: Bone20
+    400030: Bone19
+    400032: Bone18
+    400034: Bone02
+    400036: Bone01
+    400038: Bone03
+    400040: Point01
+    400042: Box04
+    400044: Scene Root_root
+    400046: Bone21(mirrored)
+    400048: Bone15(mirrored)
+    400050: Bone14(mirrored)
+    400052: Bone20(mirrored)
+    400054: Bone19(mirrored)
+    400056: Bone18(mirrored)
+    400058: //RootNode
+    400060: Bone12
+    4300000: Box04
+    7400000: Swimming_Fast
+    11100000: //RootNode
+    13700000: Box04
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 1
+  userData: 
