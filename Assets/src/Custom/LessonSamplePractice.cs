@@ -16,7 +16,7 @@ public class LessonSamplePractice : MonoBehaviour
 		));
 
 		slides.Add (new Slide (
-			"Here is a scenario: An oil spill has caused fish in a bay area to become sick. You have been tasked to figure out the effects of that oil spill on the first population of fish."
+			"Here is a scenario: An oil spill has caused fish in the area to become sick. You have been tasked to figure out the effects of that oil spill on the first population of fish."
 		));
 
 		slides.Add (new Slide (
@@ -25,8 +25,8 @@ public class LessonSamplePractice : MonoBehaviour
 
 		slides.Add (new Slide (
 			"Let's practice:\n" +
-			"1. To begin, locate the first area of water, called the Bay Area.\n" +
-			"2. Point the camera on your mobile device at the Bay Area.\n" +
+			"1. To begin, locate the first area of water, called the Pier Area.\n" +
+			"2. Point the camera on your mobile device at the Pier Area.\n" +
 			"3. Take a sample of the 10 fish in the water by tapping the fish on the screen."
 		));
 

@@ -26,32 +26,27 @@ public class LessonVariability : MonoBehaviour
 		slides.Add(new Slide(
 			"Range is a measure of how far apart the furthest data points are from each other, and it is the simplest measure of variability to calculate.\n\n" + 
 			"Simply take the largest data point and subtract the value of the lowest data point.\n\n" +
-			"Take the group of numbers 2, 4, 6. The range is 6 - 4, which is 2."
+			"Take the group of numbers 2, 4, 6. The range is 6 - 2, which is 4."
 		));
 
 		// Mean
 		slides.Add(new Slide(
 			"The mean is a measure of what the average data point is.  Simply sum all of your data points and divide by the number of data points you have.\n\n" + 
-			"Take the group of numbers 2, 4, 6. The average is (2 + 4 + 6) / 2, which is 4."
+			"Take the group of numbers 2, 4, 6. The average is (2 + 4 + 6) / 3, which is 4."
 		));
 
 		// Variance
 		slides.Add(new Slide(
 			"Variance is a measure of how close the data points are to the average.\n\n" + 
-			"To calculate the variance, you will need the mean, μ (pronounced \"mu\").\n\n" +
-			"Then take each point and substract μ from it. Square these values and add them all together. Then divide by the number of data points."
+			"To calculate the variance, you will need the means from the sample.\n\n" +
+			"Then, subtract the data point from that mean, and square the result (the squared difference). Then work out the average of those squared differences."
 		));
 
 		slides.Add (new Slide (
-			"Take the group of numbers 2, 4, 6. The average is (2 + 4 + 6) / 2, which is 4.\n\n" + 
-			"Then, we subtract μ from each value, and square the result: (2 - 4)*(2 - 4), (4 - 4)*(4 - 4), and (6 - 4)*(6 - 4).\n\n" +
-			"We then take the sum of the squares, and divide by the number of data points: (2 + 0 + 2)/3 = 1.333"
-		));
-
-		// Variance continued
-		slides.Add(new Slide(
-			"The equation to calculate variance (σ²) is: ∑(X - μ)²/N.\n\n" + 
-			"Where X is the value of each data point, N is the number of data points, and ∑ means sum all of the values (X - μ)² for each data point."
+			"Take the group of numbers 2, 4, 6. First, calculate the mean of these numbers, (2 + 4 + 6)/3 = 6.\n\n" + 
+			"The variance of these three numbers is the difference from the mean squared deviation from this average." +
+			"These deviations are (2–6) = –4, (4–6) = –2, (6–6) = 0.\n\n" +
+			"Thus the variance of the four numbers is [(2 – 4)2 + (4 - 4) 2 + (6 - 4) 2]/3 = [(-2) 2 + (0) 2 + (2) 2 ]/3 = (4 + 0 + 4) / 3 = 8/3 = 2.67"
 		));
 
 

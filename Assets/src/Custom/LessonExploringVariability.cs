@@ -18,7 +18,7 @@ public class LessonExploringVariability : MonoBehaviour
 		));
 
 		slides.Add (new Slide (
-			"HWe return to the area of the oil spill that has caused fish to become sick.\n\n" +
+			"We return to the area of the oil spill that has caused fish to become sick.\n\n" +
 			"Let's compare the results we took from the Pier and compare them with new data from the Shallow Area of the lake."
 		));
 		
@@ -51,7 +51,7 @@ public class LessonExploringVariability : MonoBehaviour
 		// ----------------------- Question Slide ---------------- //
 		Slide qSlide = new Slide("");
 		Question q = new Question();
-		q.SetText("What fraction of fish have been affected by oil based on the 12 fish you have investigated (there were 8 fish that were not affected by oil)?");
+		q.SetText("What fraction of fish has been affected by oil based on the 12 fish you have investigated? (Hint: there were 8 fish that were not affected by oil.)");
 		q.SetAnswers("1/12", "3/12", "4/12", "7/12");
 		q.SetRightAnswer("4/12");
 		q.SetHint("Take the number of fish that have been affected by oil and divide it by the total number of fish.");
@@ -83,7 +83,7 @@ public class LessonExploringVariability : MonoBehaviour
 		q.SetHint ("Calculate what 3/10ths is and calculate what 4/12ths is as a percentage.");
 		q.SetRightAnswer("Lower");
 		//q.SetHint("The probability that the next fish is affected by oil is the same as the observed fraction of fish that have been affected by oil.");
-		q.SetDescriptionOfRightAnswer("That's right!  By counting more fish, we have discovered that the percentage of fish is actually lower than we originally estimated.");
+		q.SetDescriptionOfRightAnswer("That’s right! By counting more fish infected this time, we have discovered that the percentage of fish is actually lower than we estimated the first time.");
 		
 		qSlide.AttachQuestion(q);
 		slides.Add (qSlide);

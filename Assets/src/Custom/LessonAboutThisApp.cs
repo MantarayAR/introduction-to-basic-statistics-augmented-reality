@@ -13,7 +13,7 @@ public class LessonAboutThisApp : MonoBehaviour
 		
 		
 		slides.Add(new Slide(
-			"To advance through the lessons, use the \"continue\" and \"go back\" buttons. You can return to the Main Menu by clicking \"Go back to Main Menu\"."
+			"To advance through the lessons, use the \"continue\" and \"go back\" buttons. You can return to the Main Menu by clicking \"Go Back to Lessons\"."
 		));
 		
 		slides.Add(new Slide(

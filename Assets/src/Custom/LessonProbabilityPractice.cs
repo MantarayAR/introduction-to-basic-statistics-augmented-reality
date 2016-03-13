@@ -21,7 +21,7 @@ public class LessonProbabilityPractice : MonoBehaviour
 		// ----------------------- Question Slide ---------------- //
 		Slide qSlide = new Slide("");
 		Question q = new Question();
-		q.SetText("If 3 out of 10 fish had been affected by oil, what would the probability be of randomly selected a fish the has been affected by oil?");
+		q.SetText("If 3 out of 10 fish had been affected by oil, what would the probability be of randomly selectinh a fish that has been affected by oil?");
 		q.SetAnswers("70%", "50%", "0%", "30%");
 		q.SetRightAnswer("30%");
 		q.SetHint("Calculate 3/10 and then multiply by 100 to get the percentage for the probability.");
