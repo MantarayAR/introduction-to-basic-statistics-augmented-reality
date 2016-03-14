@@ -175,7 +175,10 @@ public class FishBehavior : MonoBehaviour {
 					parentTransform = transform.parent;
 					transform.parent = cam.transform;
 				}
-				transform.localPosition = Vector3.Slerp(transform.localPosition, new Vector3(0,0,distanceFromCamera), Time.deltaTime * zoomFactor);
+
+
+
+				transform.localPosition = Vector3.Slerp(transform.localPosition, new Vector3(0, 0.25f ,distanceFromCamera), Time.deltaTime * zoomFactor);
 				transform.localRotation = Quaternion.Slerp(transform.localRotation, Quaternion.Euler(0, 0, 0), Time.deltaTime * zoomFactor);
 			}
 			else {
